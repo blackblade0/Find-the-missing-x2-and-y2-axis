@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+
+// Find the missing x2 and y2 axis
+
+int 
+main () 
+{
+  
+double a[10] = { };
+  
+double b[10] = { };
+  
+double v[10] = { };
+  
+ 
+printf ("Enter the number for x1 then y1:");
+  
+scanf ("%lf %lf", &a[0], &a[1]);
+  
+printf ("Enter the Vector coordinates :");
+  
+scanf ("%lf %lf", &v[0], &v[1]);
+  
+ 
+ 
+b[0] = a[0] + v[0];	// add x1 + the vector x
+  b[1] = a[1] + v[1];		// add y1 + the vector y
+  
+printf ("The x2 coordinate is : %.lf\n ", b[0]);
+  
+printf ("The y2 coordinate is :%.lf", b[1]);	// Results of the Equation :)
+  
+return 0;
+
+}
